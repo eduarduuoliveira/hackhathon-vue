@@ -212,6 +212,8 @@
     </div>
   </div>
 
+  
+
 </template>
 
 <script>
@@ -222,11 +224,8 @@ export default {
 
 
 
-<style>
+<style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200&family=Josefin+Sans&display=swap');
-
-
-
 
 #navbar-example2 {
   height: 13vh;
@@ -249,6 +248,8 @@ export default {
 #carouselExampleCaptions {
   margin-top: 0px;
   text-align: center;
+  height: 100%;
+  width: 100%;
 }
 
 body {
@@ -369,8 +370,9 @@ h5 {
   }
   .fotosCarrousel{ 
     object-fit: cover;
-    height: 100vh;
+    height: 39em;
     width: 100%;
+    margin-left: 0px;
   }
 
 
@@ -459,6 +461,50 @@ h5 {
     border-bottom: solid 4px gold;
     height: 80%;
     margin-left: 3%;
-    margin-right: 3%;
+    margin-right: 3%;/* Seus estilos originais aqui */}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+  #navbar-example2 {
+    height: auto;
   }
+
+  .carrinho {
+    padding-top: 1%;
+    margin-left: 2%;
+    position: relative;
+  }
+
+  /* Ajustar tamanhos de fonte */
+  h5 {
+    font-size: 150%;
+  }
+
+  .main-title-nos h1,
+  .main-title-frotas h1,
+  .frota-micro,
+  .frota-ducato {
+    font-size: 2.5em;
+  }
+
+  /* Ajustar tamanhos de imagem */
+  .img-micro-frotas,
+  .img-ducato-frotas {
+    height: auto;
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0;
+    max-height: 300px;
+  }
+
+  /* Ajustar margens e espaçamento */
+  .div-frotas-micro,
+  .div-frotas-ducato {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+
+
 </style>
