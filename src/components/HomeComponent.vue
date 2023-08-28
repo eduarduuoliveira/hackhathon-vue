@@ -37,10 +37,91 @@
     </a>
     </div>
   </div>
+  <div class="formLoSn">
+ <div class="singup">
+<div class="formulario">
+<form>
+
+    <h1>Sign-in:</h1>
+
+    <label class="label_username">username</label>
+    <br>
+    <input class="username" type="text">
+    <br>
+    <label class="label_email">email</label>
+    <br>
+    <input class="email" type="email">
+    <br>
+    <label class="label_confirma_email">confirme o email</label>
+    <br>
+    <input class="confirma_email" type="email">
+    <br>
+    <label class="label_senha">senha</label>
+    <br>
+    <input class="senha" type="password">
+    <br>
+    <label class="label_confirma_senha">confirme sua senha</label>
+    <br>
+    <input class="confirma_senha" type="password">
+    <br>
+    <button class="criar" >Criar Conta</button>
+
+    <p>Já tem uma conta? <a href="">Fazer Login!</a></p>
+
+</form>
+</div>
+
+
+<div class="formularioLogin">
+<form>
+
+    <h1>Log-in:</h1>
+
+    <label class="label_usernameL">username</label>
+    <br>
+    <input class="usernameL" type="text">
+    <br>
+    <label class="label_senhaL">senha</label>
+    <br>
+    <input class="senhaL" type="password">
+    <br>
+    <button class="entrarL">Entrar</button>
+
+    <p class="loginB">Ainda não tem cadastro? <a href="">Cadastre-se!</a></p>
+
+</form>
+</div>
+</div>
+</div>
 </template>
 
 <style scoped>
 
+.entrarL {
+  background-color: #f39c12;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-left: 39%;
+}
+.label_usernameL, .usernameL, .label_senhaL{
+  text-align: center;
+  color: white;
+}
+
+.loginB{
+  text-align: center;
+}
+
+.formularioLogin{
+  margin-top: -93%;
+ height: 150vh;
+ width: 150vh;
+ margin-left: 30%;
+}
 .tituloRedes{
  text-align: center;
  font-size: 10vh;
@@ -56,7 +137,12 @@
 border-left: solid 3px gold;
 }
 
-
+  .singup{
+    border-top: solid 3px gold;
+    margin-top: 15%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
 .social-button {
   display: inline-block;
   width: 30vh;
@@ -121,7 +207,7 @@ input:focus {
   border-color: #f39c12;
 }
 
-button {
+.criar {
   background-color: #f39c12;
   color: #fff;
   padding: 10px 20px;
@@ -131,6 +217,7 @@ button {
   cursor: pointer;
   margin-top: 15px;
   transition: background-color 0.3s ease-in-out;
+  text-align: center;
 }
 
 button:hover {
@@ -143,11 +230,96 @@ button:hover {
   color: #f39c12;
 }
 
+.p {
+    margin-bottom: 5%;
+}
+
+.criar {
+    border: 0px;
+    margin-right: 8%;
+    margin-top: 10px;
+    border-radius: 11px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.label_username {
+    margin-right: 18%;
+    color: white;
+}
+
+.label_email {
+    margin-right: 24%;
+    color: white;
+}
+
+.label_confirma_email {
+    margin-right: 10%;
+    color: white;
+}
+
+.label_senha {
+    margin-right: 24%;
+    color: white;
+}
+
+.label_confirma_senha {
+    margin-right: 6%;
+    color: white;
+}
+
+.username, .email, .confirma_email, .senha, .confirma_senha {
+    border-radius: 11px;
+    border: 0px;
+    color: white;
+}
+
+.formLoSn{
+  background-image: url(../img/carro4.jpeg);
+  margin-top: 5%;
+}
+.formulario {
+    text-align: center;
+    margin-top: -20%;
+    height: 150vh;
+    width: 150vh;
+}
+
+form {
+    background-color: #231f1e;
+    margin-top: 30%;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+    border-radius: 35px;
+    border-color: #ffc107;
+    border-style: groove;
+}
+
+h1 {
+    text-align: center;
+padding-top: 10px;
+margin-top: 5%;
+color: white;
+}
+
+    .menu-button {
+  background: none;
+  border: none;
+  font-size: 5vh;
+  cursor: pointer;
+  color: white;
+  margin-left: 13%;
+  margin-top: 15%;
+}
+
+
 
 </style>
 
 <script>
 export default {
+
   data() {
     return {
       origin: "",
@@ -165,4 +337,6 @@ export default {
     },
   },
 };
+
+
 </script>
