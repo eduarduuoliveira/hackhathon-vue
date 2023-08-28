@@ -34,9 +34,6 @@ export default {
     FleetComponent,
     WhatsAppLinkComponent,
     HomeComponent,
-  
- 
-  
   },
   name: 'App'
 };
