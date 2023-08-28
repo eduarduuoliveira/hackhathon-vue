@@ -25,7 +25,6 @@ import HomeComponent from './components/HomeComponent.vue';
 
 
 
-
 export default {
   components: {
     HeaderComponent,
