@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200&family=Josefin+Sans&display=swap');
+
+#navbar-example2 {
+  height: 13vh;
+  margin-top: 0px;
+  background-image: url(./img/rua.jpeg);
+  background-size: 130vh;
+}
+
+.nav-pills {
+  margin-right: 2%;
+  margin-top: 1%;
+}
+
+.carrinho {
+  padding-top: 0.85%;
+  margin-left: 5.7%;
+  position: absolute;
+  background-color: #231f1e;
+  height: 11vh;
+}
+
+
+#carouselExampleCaptions {
+  margin-top: 0px;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: rgba(204, 204, 204, 0.685);
+}
+
+h5 {
+  font-size: 200%;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(255, 255, 255);
+  text-shadow:
+    -1px -1px 0px rgb(0, 0, 0),
+    -1px 1px 0px rgb(0, 0, 0),
+    1px -1px 0px rgb(0, 0, 0),
+    1px 0px 0px rgb(0, 0, 0),
+}
+
+  .carousel-inner {
+    width: 100%;
+    height: 100%;
+  }
+
+  .block w-full
+  #home1 {
+    margin-left: 10%;
+  }
+
+  #quemSomos {
+    margin-top: 5%;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 4%;
+    margin-right: 4%;
+
+  }
+  #frotas{
+    margin: -12% 4% 0% 4%;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .titulos {
+    padding-top: 1%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5em;
+  }
+
+
+  .subtitulo {
+    text-decoration: underline;
+    color: gold;
+    text-shadow: 1.5px 1.5px black;
+  }
+
+  .container {
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 30%;
+  }
+
+
+  .text-nos {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.4em;
+    padding-top: 2.5%;
+    padding-bottom: 2.9%;
+    font-weight: bold;
+  }
+
+  .container-inner {
+    text-align: start;
+    float: left;
+    padding: 5%;
+  }
+
+
+  .container-topicos {
+    padding-bottom: 10%;
+    font-family: 'Dosis', sans-serif;
+    float: left;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+  }
+
+  .topicos {
+    border-left: solid 4px gold;
+    padding-left: 10px;
+  }
+
+  h2 {
+    font-family: 'Dosis', sans-serif;
+    margin-top: 50px;
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+
+
+  #text-quem {
+    padding-top: 25px;
+  }
+
+  #foto-quem {
+    height: 52.5vh;
+    border-radius: 50px;
+    float: left;
+  }
+
+
+
+
+  .subcontainer{
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    
+  }
+  .fotosCarrousel{ 
+    object-fit: cover;
+    height: 39em;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+    .whatsapp-link {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #25d366;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 1px 1px 2px #888;
+        z-index: 1000;
+    }
+
+.whatsapp-link:hover{
+  width: 80px;
+  height: 80px;
+  font-size: 40px;
+  color: white;
+  }
+
+    .fa-whatsapp {
+        margin-top: 16px;
+    }
+
+.main-title-nos{
+  padding-top: 4%;
+}
+
+.main-title-frotas{
+  padding-top: 4%;
+}
+
+.frota-micro{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 4em;
+  margin-left: 8%;
+  margin-top: -25%;
+}
+
+.especificacoes-micro{
+    margin-left: -65%;
+}
+
+.img-micro-frotas{
+    height: 40%;
+    width: 40%;
+    float: right;
+    margin-right: 6%;
+    margin-top: -450px;
+    border: solid 5px rgba(58, 57, 62, 0.76);
+}
+
+.div-frotas-micro{
+    border-bottom: solid 4px gold;
+    height: 80%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.frota-ducato{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4em;
+    margin-left: 11%;
+    margin-top: 5%;
+  }
+  
+  .especificacoes-ducato{
+    margin-left: -65%;  
+  }
+  
+  .img-ducato-frotas{
+    height: 40%;
+    width: 40%;
+    float: right;
+    margin-right: 6%;
+    margin-top: -450px;
+    border: solid 5px rgba(58, 57, 62, 0.76);
+  }
+  
+  .div-frotas-ducato{
+    border-bottom: solid 4px gold;
+    height: 80%;
+    margin-left: 3%;
+    margin-right: 3%;/* Seus estilos originais aqui */}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+  #navbar-example2 {
+    height: auto;
+  }
+
+  .carrinho {
+    padding-top: 1%;
+    margin-left: 2%;
+    position: relative;
+  }
+
+  /* Ajustar tamanhos de fonte */
+  h5 {
+    font-size: 150%;
+  }
+
+  .main-title-nos h1,
+  .main-title-frotas h1,
+  .frota-micro,
+  .frota-ducato {
+    font-size: 2.5em;
+  }
+
+  /* Ajustar tamanhos de imagem */
+  .img-micro-frotas,
+  .img-ducato-frotas {
+    height: auto;
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0;
+    max-height: 300px;
+  }
+
+  /* Ajustar margens e espaçamento */
+  .div-frotas-micro,
+  .div-frotas-ducato {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+    #navbar-example2 {
+      height: auto;
+    }
+  
+    .carrinho {
+      padding-top: 1%;
+      margin-left: 2%;
+      position: relative;
+    }
+  
+    /* Ajustar tamanhos de fonte */
+    h5 {
+      font-size: 150%;
+    }
+  
+    .main-title-nos h1,
+    .main-title-frotas h1,
+    .frota-micro,
+    .frota-ducato {
+      font-size: 2.5em;
+    }
+  
+    /* Ajustar tamanhos de imagem */
+    .img-micro-frotas,
+    .img-ducato-frotas {
+      height: auto;
+      width: 100%;
+      margin-right: 0;
+      margin-top: 0;
+      max-height: 300px;
+    }
+  
+    /* Ajustar margens e espaçamento */
+    .div-frotas-micro,
+    .div-frotas-ducato {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    #navbar-example2 {
+      height: auto;
+      padding: 10px 0;
+    }
+  
+    .carrinho {
+      padding-top: 1%;
+      margin-left: 2%;
+      position: relative;
+    }
+  
+    .nav-pills {
+      margin-right: 2%;
+      margin-top: 1%;
+    }
+  
+    .carousel-inner {
+      height: auto;
+    }
+  
+    h5 {
+      font-size: 150%;
+    }
+  
+    .main-title-nos h1,
+    .main-title-frotas h1,
+    .frota-micro,
+    .frota-ducato {
+      font-size: 2em;
+    }
+  
+    .img-micro-frotas,
+    .img-ducato-frotas {
+      height: auto;
+      width: 100%;
+      margin-right: 0;
+      margin-top: 0;
+      max-height: 300px;
+    }
+  
+    .div-frotas-micro,
+    .div-frotas-ducato {
+      margin-left: 0;
+      margin-right: 0;
+      border-bottom: none;
+    }
+  
+    .container-topicos {
+      display: block;
+      text-align: center;
+    }
+  
+    .container-inner {
+      float: none;
+      padding: 0;
+    }
+  }
