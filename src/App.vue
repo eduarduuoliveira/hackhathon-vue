@@ -24,7 +24,6 @@ import WhatsAppLinkComponent from './components/WhatsAppLink.vue';
 import HomeComponent from './components/HomeComponent.vue';
 
 
-
 export default {
   components: {
     HeaderComponent,
