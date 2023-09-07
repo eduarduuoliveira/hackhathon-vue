@@ -109,8 +109,8 @@
 }
 
 .img-micro-frotas {
-  height: 40%;
-  width: 40%;
+  height: 30%;
+  width: 30%;
   float: right;
   margin-right: 6%;
   margin-top: -450px;
@@ -136,8 +136,8 @@
 }
 
 .img-ducato-frotas {
-  height: 40%;
-  width: 40%;
+  height: 30%;
+  width: 30%;
   float: right;
   margin-right: 6%;
   margin-top: -450px;
