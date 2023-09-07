@@ -40,7 +40,7 @@
     border-radius: 8px;
     font-size: 16px;
     margin-top: 15px;
-    margin-left: 39%;
+    margin-left: 38%;
 }
 
 .label_usernameL,
