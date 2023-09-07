@@ -1,32 +1,14 @@
-@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200&family=Josefin+Sans&display=swap');
 
-#app {
-
-  margin: 0 auto;
-  font-weight: normal;
-}
-
-a,
-.green {
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+body {
+  background-color: rgba(204, 204, 204, 0.685);
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
 
-  #app {
-    display: grid;
-    
-  }
-}
